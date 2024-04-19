@@ -25,7 +25,7 @@ def main():
     arguments = input("Ingrese los argumentos de nmap(-oN, -sS, -sV, etc): ")
     sudo = input("¿Desea ejecutar el comando como super usuario? (S/n): ").lower() == 's'
 
-    # Ejecutar nmap
+ 
     run_nmap(hosts, ports, arguments, sudo)
 
 if __name__ == "__main__":
